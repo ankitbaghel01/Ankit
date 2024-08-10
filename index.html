@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body class="bg-gray-900 text-white">
+    <!-- Profile Section -->
+ 
+    <div class="relative bg-gray-800 p-6 flex flex-col md:flex-row items-center md:items-center overflow-hidden">
+        <!-- Blur effect -->
+        <div class="absolute inset-0 bg-cover bg-center opacity-50 blur-md" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3bvrWI56jDuozJEfpNnvXdkK6pEbVBzessg&s');"></div>
+    
+        <img src="WhatsApp Image 2024-08-10 at 2.05.40 PM.jpeg" alt="Profile Picture" class="w-36 h-36 rounded-full border-2 border-white mb-4 md:mb-0 relative z-10">
+        <div class="text-center md:text-left md:ml-4 relative z-10">
+            <h1 class="text-xl font-semibold">Ankit Baghel</h1>
+            <a href="https://drive.google.com/file/d/1usSWtRDEArtXSD3WVtG5L7nbqMky8Ix6/view?usp=drive_link"  class="text-gray-400 pointer">@ankitbaghel</a>
+        </div>
+        <!-- <div class="mt-4 md:mt-0 md:ml-auto relative z-10">
+            <a href="https://www.instagram.com/ankibaghel01/" target="_blank" class="bg-gray-700 text-white py-2 px-4 rounded-lg hover:bg-gray-600">
+                <i class="fab fa-instagram"></i> 
+            </a>
+        </div> -->
+        <div class="mt-4 md:mt-0 md:ml-auto relative z-10">
+            <!-- Instagram Button -->
+            <a href="https://www.instagram.com/ankibaghel01/" target="_blank" class="bg-gray-700 text-white py-2 px-4 rounded-lg hover:bg-gray-600">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <!-- Twitter Button -->
+            <a href="https://x.com/ankitschat?t=-vhw0wvnOfXWaJ9e48JxQw&s=08" target="_blank" class="bg-gray-700 text-white py-2 px-4 rounded-lg hover:bg-blue-400 ml-2">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <!-- LinkedIn Button -->
+            <a href="https://www.linkedin.com/in/ankit-baghel-095254212" target="_blank" class="bg-gray-700 text-white py-2 px-4 rounded-lg hover:bg-blue-600 ml-2">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/ankitbaghel01" target="_blank" class="bg-gray-700 text-white py-2 px-4 rounded-lg hover:bg-gray-700 ml-2">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+        
+    </div>
+    
+
+    <!-- Project Cards Section -->
+    <div class="container mx-auto p-6">
+        <h2 class="text-2xl font-bold mb-4">Projects</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 p-6">
+            <!-- Project Card Example -->
+            <a href="https://github.com/ankitbaghel01/Share-Ride-Web-Application" class="block bg-gray-800 p-4 rounded-lg hover:bg-gray-700 transition-colors">
+                <img src="Screenshot (141).png" alt="Share Ride Web Application" class="rounded-t-lg w-full h-48 object-cover mb-4">
+                <h2 class="text-lg font-semibold">Share Ride Web Application</h2>
+                <p class="text-gray-400">Made with: React, Express, Rest Api, Tailwind CSS, MongoDB, SMTP, JWT</p>
+            </a>
+            <a href="https://github.com/ankitbaghel01/Clothing-Website" class="block bg-gray-800 p-4 rounded-lg hover:bg-gray-700 transition-colors">
+                <img src="Screenshot (145).png" alt="Clothing Website" class="rounded-t-lg w-full h-48 object-cover mb-4">
+                <h2 class="text-lg font-semibold">Clothing Website</h2>
+                <p class="text-gray-400">Made with: JavaScript, React, Tailwind CSS</p>
+            </a>
+            <a href="https://github.com/ankitbaghel01/-currency-converter" class="block bg-gray-800 p-4 rounded-lg hover:bg-gray-700 transition-colors">
+                <img src="Screenshot (147).png" alt="Currency Converter" class="rounded-t-lg w-full h-48 object-cover mb-4">
+                <h2 class="text-lg font-semibold">Currency Converter</h2>
+                <p class="text-gray-400">Made with: Html, CSS, Tailwind CSS, JavaScript</p>
+            </a>
+            <a href="https://github.com/ankitbaghel01/B-Donner" class="block bg-gray-800 p-4 rounded-lg hover:bg-gray-700 transition-colors">
+                <img src="Screenshot (149).png" alt="Blood Donation" class="rounded-t-lg w-full h-48 object-cover mb-4">
+                <h2 class="text-lg font-semibold"> Blood Donation </h2>
+                <p class="text-gray-400">Made with: Html, CSS, JavaScript, Tailwind CSS, Firebase</p>
+            </a>
+        </div>
+        <div class="mt-10">
+            <h3 class="text-xl font-semibold mb-4">More Projects</h3>
+            <div class="bg-gray-800 p-4 rounded-lg">
+                <ul class="list-none">
+                    <li class="flex items-center mb-2">
+                        <span class="text-sm mr-2">👕</span>
+                        <a href="https://github.com/ankitbaghel01/ProfileFrontend" class="text-blue-400 hover:underline">Profile Frontend</a>
+                    </li>
+                    <li class="flex items-center mb-2">
+                        <span class="text-sm mr-2"> 📝</span>
+                        <a href="https://github.com/ankitbaghel01/customer-survey" class="text-blue-400 hover:underline">Survey Card</a>
+                    </li>
+                    <li class="flex items-center mb-2">
+                        <span class="text-sm mr-2">📓</span>
+                        <a href="https://github.com/ankitbaghel01/Autosaver" class="text-blue-400 hover:underline">Auto Note Saver</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Skills Section -->
+        <div class="mt-10">
+            <h3 class="text-xl font-semibold mb-4">What I Know</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Frontend Skills -->
+                <div class="bg-gray-800 p-4 rounded-lg">
+                    <h4 class="text-lg font-semibold">Frontend</h4>
+                    <div class="flex flex-wrap mt-2">
+                        <span class="bg-gray-700 text-sm py-1 px-2 rounded mr-2 mb-2">HTML</span>
+                        <span class="bg-gray-700 text-sm py-1 px-2 rounded mr-2 mb-2">CSS</span>
+                        <span class="bg-gray-700 text-sm py-1 px-2 rounded mr-2 mb-2">JavaScript</span>
+                        <span class="bg-gray-700 text-sm py-1 px-2 rounded mr-2 mb-2">React</span>
+                        <span class="bg-gray-700 text-sm py-1 px-2 rounded mr-2 mb-2">Tailwind</span>
+                        <span class="bg-gray-700 text-sm py-1 px-2 rounded mr-2 mb-2">Bootstrap</span>
+                    </div>
+                </div>
+                <!-- Backend Skills -->
+                <div class="bg-gray-800 p-4 rounded-lg">
+                    <h4 class="text-lg font-semibold">Backend</h4>
+                    <div class="flex flex-wrap mt-2">
+                        <span class="bg-gray-700 text-sm py-1 px-2 rounded mr-2 mb-2">Node.js</span>
+                        <span class="bg-gray-700 text-sm py-1 px-2 rounded mr-2 mb-2">Express.js</span>
+                        <span class="bg-gray-700 text-sm py-1 px-2 rounded mr-2 mb-2">MongoDB</span>
+                        <span class="bg-gray-700 text-sm py-1 px-2 rounded mr-2 mb-2">REST API</span>
+                    </div>
+                </div>
+                <!-- Database Skills -->
+                <div class="bg-gray-800 p-4 rounded-lg">
+                    <h4 class="text-lg font-semibold">Database</h4>
+                    <div class="flex flex-wrap mt-2">
+                        <span class="bg-gray-700 text-sm py-1 px-2 rounded mr-2 mb-2">PostgreSQL</span>
+                        <span class="bg-gray-700 text-sm py-1 px-2 rounded mr-2 mb-2">MySQL</span>
+                        <span class="bg-gray-700 text-sm py-1 px-2 rounded mr-2 mb-2">MongoDB</span>
+                    </div>
+                </div>
+                <!-- DevOps Skills -->
+                <div class="bg-gray-800 p-4 rounded-lg">
+                    <h4 class="text-lg font-semibold">Other</h4>
+                    <div class="flex flex-wrap mt-2">
+                        <span class="bg-gray-700 text-sm py-1 px-2 rounded mr-2 mb-2">Java</span>
+                        <span class="bg-gray-700 text-sm py-1 px-2 rounded mr-2 mb-2">Git</span>
+                        <span class="bg-gray-700 text-sm py-1 px-2 rounded mr-2 mb-2">github</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="mt-10">
+            <h3 class="text-xl font-semibold mb-4">Certificates</h3>
+            <div class="bg-gray-800 p-4 rounded-lg">
+                <ul class="list-none">
+                    <li class="flex items-center mb-2">
+                        <span class="text-sm mr-2">✔️</span>
+                        <a href="https://udemy-certificate.s3.amazonaws.com/image/UC-9e306983-8f23-4d14-b365-fb98d80b96a3.jpg" class="text-blue-400 hover:underline">Java and OOPs consept Preparation By Udemy </a>
+                    </li>
+                    <li class="flex items-center mb-2">
+                        <span class="text-sm mr-2"> ✔️</span>
+                        <a href="https://udemy-certificate.s3.amazonaws.com/image/UC-3ce9488e-a7c1-48cf-b75e-1a84bad44c16.jpg" class="text-blue-400 hover:underline">Web Development By Udemy</a>
+                    </li>
+                    <li class="flex items-center mb-2">
+                        <span class="text-sm mr-2">✔️</span>
+                        <a href="https://udemy-certificate.s3.amazonaws.com/image/UC-c962544b-792f-48aa-a726-35072445f0e9.jpg" class="text-blue-400 hover:underline">Git and Github By Udemy</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+       
+    </div>
+</body>
+
+</html>
